@@ -1,0 +1,11 @@
+.row
+  .small-12.columns
+    form#nameInput(action='/games/start', method='post')
+      .row
+        .small-12.columns
+          input(name='player' type='text' placeholder='Drew' autofocus=true)
+      .row
+        .small-12.columns
+          input(name='squares' type='text' placeholder='8')
+        .small-12.columns
+          button#start(value='submit').button.success.small.expand.radius Start
